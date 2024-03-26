@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+.container{
+    width: 100%;
+    background-color:rgb(4, 4, 65);
+    color: white;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.project_title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mark_row{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    width: 50%;
+    margin: 10px 10px;
+}
+.sub_name{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-weight: 700;
+}
+.sub_value{
+    width: 35%;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 7px;    
+}
+input[type="text"]:hover{
+    background-color: black;
+    color: white;
+}
+.total{
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    box-shadow: -1px 1px 8px white ;
+    margin: 10px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    line-height: 3.7;
+}
+.button{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background:transparent;
+    color: white;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
